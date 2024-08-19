@@ -16,6 +16,7 @@
                         <a href="/posts/{{ $post->id }}">{{ $post->title }}</a>
                     </h2>
                     <p class='body'>{{ $post->body }}</p>
+                    <div class="edit"><a href="/posts/{{ $post->id }}/edit">edit</a></div>
                 </div>
             @endforeach
         </div>
